@@ -71,6 +71,16 @@ client.initialize();
 Take a look at [example.js][examples] for additional examples and use cases.  
 For more details on saving and restoring sessions, check out the [Authentication Strategies][auth-strategies].
 
+## Running in Docker
+
+A ready-to-use `Dockerfile` and `docker-compose.yml` are included for
+building and running the bot on a server, plus an optional HTTP API for
+integrating with tools like n8n or a Python script (send messages over
+REST, receive them via webhook), and an experimental
+[Obscura](https://github.com/h4ckf0r0day/obscura) (CDP-compatible browser)
+integration. See [`docker/README.md`][docker-readme] for setup and
+configuration.
+
 ## Supported features
 
 | Feature                                          | Status                                       |
@@ -154,5 +164,6 @@ limitations under the License.
 [gitHub-sponsors]: https://github.com/sponsors/wwebjs
 [support-payPal]: https://www.paypal.me/psla/
 [contributing]: .github/CONTRIBUTING.md
+[docker-readme]: docker/README.md
 [whatsapp]: https://whatsapp.com
 [puppeteer]: https://pptr.dev/

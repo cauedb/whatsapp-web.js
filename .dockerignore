@@ -1,0 +1,14 @@
+node_modules
+.wwebjs_auth
+.wwebjs_cache
+npm-debug.log
+.git
+.github
+.vscode
+docs
+tests
+example.js
+shell.js
+.env
+*.md
+!README.md
